@@ -168,7 +168,7 @@ L G D = ( \overrightarrow { g _ { 2 } } - \overrightarrow { g _ { 1 } } ) \cdot 
 $$
 其中：
 
-$$ \overrightarrow { g _ { 1 } }$$ 是由 ITSG 球谐系数 $$ ( C _ { n m } , S _ { n m } )$$ 计算得到的重力加速度矢量。本项目使用了**递归算法**直接在轨道高度计算引力梯度，包含 loading effect（取决于输入模型）。
+$$ \overrightarrow { g _ { 1 } }$$ 是由 ITSG 球谐系数 $$ ( C _ { n m } , S _ { n m } )$$ 计算得到的重力加速度矢量。本项目使用了**递归算法**直接在轨道高度计算引力梯度。
 
 $$ \overrightarrow { e _ { 1 2 } }$$ 是两颗卫星连线的单位向量。
 
