@@ -163,14 +163,16 @@ python plot_single_lgd.py
 ### 1. LGD 计算
 
 LGD (Line-of-Sight Gravity Difference) 定义为两颗卫星位置处的引力矢量在视线方向投影的差值。
+
 $$
 L G D = ( \overrightarrow { g _ { 2 } } - \overrightarrow { g _ { 1 } } ) \cdot \overrightarrow { e _ { 1 2 } }
 $$
+
 其中：
 
-$$ \overrightarrow { g _ { 1 } }$$ 是由 ITSG 球谐系数 $$ ( C _ { n m } , S _ { n m } )$$ 计算得到的重力加速度矢量。本项目使用了**递归算法**直接在轨道高度计算引力梯度。
+$$ \overrightarrow { g _ { 1 } } 是由 ITSG 球谐系数  ( C _ { n m } , S _ { n m } ) 计算得到的重力加速度矢量。本项目使用了**递归算法**直接在轨道高度计算引力梯度。 $$
 
-$$ \overrightarrow { e _ { 1 2 } }$$ 是两颗卫星连线的单位向量。
+$$ \overrightarrow { e _ { 1 2 } } 是两颗卫星连线的单位向量。$$
 
 ### 2. ITSG 模型应用
 
