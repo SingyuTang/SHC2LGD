@@ -22,7 +22,7 @@
    - **单日对比**: 绘制滤波前后的 LGD 空间分布对比。
    - **多日序列**: 绘制特定区域内的 LGD 随时间演变的 "瀑布图" (Waterfall/Offset Plot)，直观展示质量异常的移动和演变。
 
-
+更多信息查看[博客-项目介绍](https://singyutang.github.io/2025/12/10/%E5%9F%BA%E4%BA%8EITSG-Grace-operational-Kalman-n40%E5%8D%95%E6%97%A5%E7%90%83%E5%8D%8F%E4%BA%A7%E5%93%81%E8%AE%A1%E7%AE%97LGD/)。
 
 ## 项目结构 (Project Structure)
 
